@@ -1,0 +1,31 @@
+{
+    "availableVersions":[
+    "v1"
+    ],
+    "tokenExpiryTypeIn":"minutes",
+    "tokenExpiryType":"m",
+    "tokenExpiryLimit":10,
+    "rowsPerPage":50,
+    "JWTtokenSecurityKey":"AtumLife@321",
+    "passwordSecurityKey":"AtumLife@321",
+    "JWTtokeAlgorithm": "HS256",
+    "saltRounds":10,
+    "fileUploadPath":"assets/",
+    "sendMails":true,
+    "defaultMail":"atumlifee@gmail.com",
+    "apiList": {
+        "categories": "/categories/:id?",
+        "products": "/products/:id?"
+    },
+    "validationMessages":{
+        "commonValidations":{
+            "recordExist":{
+                "errorCode":409,
+                "errorMessage":"Record Already Exist"
+            }
+        }
+    },
+    "tableNames":{
+        "categories":"categories"
+    }
+}
